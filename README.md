@@ -7,7 +7,7 @@ A fullty functional and secure food delivery app developed using MERN stack. Int
 
 - **⚛️ npx create-react-app my-app**  :
   used for building the react app ; make sure to run this command in the project directory
-- **⚛️ npx create-react-app my-app**  :
+- **⚛️ npm start**  :
   after creating the react app and all its dependencies and then ENTER, try this command to start the react app (Frontend)
  - **⚛️ nodemon index.js**  :
   (run this after going into backend directory using "cd backend") and then press TAB button and then ENTER , this activates the backend (database connects to the react app)
