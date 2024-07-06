@@ -1,0 +1,75 @@
+
+.form-text{
+  font-family: "Open Sans", sans-serif;
+}
+.form-label-first{
+  margin-top: 40px;
+  font-family: "Open Sans", sans-serif;
+}
+.form-label{
+  font-family: "Open Sans", sans-serif;
+}
+.loginbutton {
+  background-color: #16bf81;
+  margin-top: 10px;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  border: none;
+  padding: 10px 17px;
+  cursor: pointer;
+  outline: none;
+  font-family: "Open Sans", sans-serif;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.loginbutton:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  background-color: #2d8e6a; 
+  transform: scale(1.05);
+}
+
+.signbutton {
+  margin-left: 15px;
+  background-color: rgb(19, 176, 224);
+  margin-top: 10px;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  border: none;
+  padding: 10px 17px;
+  cursor: pointer;
+  outline: none;
+}
+
+.signbutton:hover {
+  background-color: rgb(32, 138, 171);
+  transform: scale(1.05);
+}
+
+.getlocation{
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 15px;
+  background-color: red;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  outline: none;
+}
+.getlocation:hover{
+  transform: scale(1.02);
+  background-color: rgb(195, 28, 28);
+}
+@media screen and (max-width: 280px) {
+  .signbutton {
+    padding: 9px 14px;
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,26 @@
+/* Ensure that there is always some margin around the cards */
+.card-container {
+    padding: 0.5rem; /* Add padding around the cards */
+  }
+  
+  /* Apply custom margins specifically for the screen widths between 995px to 1384px */
+  @media (min-width: 995px) and (max-width: 1384px) {
+    .card-container {
+      padding: 1rem; /* Increase the padding to ensure cards don't touch */
+    }
+  }
+  
+  /* Style adjustments to make the cards smaller */
+  .card {
+    width: 100%; /* Ensure the card takes full width of its container */
+    height: auto; /* Adjust height as needed */
+    margin: auto; /* Center the card within its container */
+  }
+  
+  /* Adjust the card size and container padding for large screens */
+  @media (min-width: 1200px) {
+    .card-container {
+      padding: 0.75rem; /* Adjust padding for large screens */
+    }
+  }
+  

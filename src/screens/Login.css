@@ -1,0 +1,50 @@
+.form-text{
+    font-family: "Open Sans", sans-serif;
+}
+.form-label-first {
+  margin-top: 55px;
+  margin-bottom: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+.form-label{
+  font-family: "Open Sans", sans-serif;
+}
+.loginbutton {
+    background-color: #16bf81;
+    margin-top: 25px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    transition: all 0.3s ease;
+    border: none;
+    padding: 10px 17px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .loginbutton:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    background-color: #2d8e6a; 
+  }
+  
+.signbutton{
+  font-family: "Open Sans", sans-serif;
+    margin-left: 15px;
+    background-color: orange;
+    margin-top: 25px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: none;
+    padding: 10px 17px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .signbutton:hover {
+    background-color: rgb(191, 138, 40); 
+  }
+  
